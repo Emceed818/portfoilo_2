@@ -1,5 +1,6 @@
 @media(max-width:768px) {
-    .header {
+    .change-color {
+        background-color: #153738;
         height: 110px;
     }
     .header-container {
@@ -8,7 +9,8 @@
     .header-container h1 {
         font-size: 20px;
         margin-top: 20px;
-        margin-left: 10px;
+        text-align: center;
+        padding-left: 0px;
     }
     .header-nav {
         margin-top: 15px;
@@ -18,7 +20,6 @@
         margin-bottom: 15px;
     }
     .fv-container {
-        
         height: 600px;
     }
     .fv-content h2 {
@@ -41,7 +42,7 @@
         flex-wrap: wrap;
         margin-bottom: 20px;
     }
-    .news-link{
+    .news-link {
         margin-top: 12px;
     }
     .service-container {
@@ -83,6 +84,10 @@
     .canpany-container {
         background-image: none;
         padding: 0 20px;
+        margin-top: 0px;
+    }
+    .head-home-canpany h2 {
+        padding-top: 0px;
     }
     .body-home-canpany-ttl {
         font-size: 25px;
@@ -104,10 +109,10 @@
         flex-wrap: wrap;
         padding: 15px 0;
     }
-    .footer-nav{
+    .footer-nav {
         text-align: center;
     }
-    .footer-nav-list li{
+    .footer-nav-list li {
         margin-bottom: 15px;
     }
 }

@@ -1,19 +1,17 @@
 /* header */
 
 body {
-    font-family: "Montserrat", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     line-height: 1.8;
 }
 
 .header {
     max-width: 100%;
     height: 80px;
-    font-family: Montserrat;
-    left: 0;
-    right: 0;
+    /* left: 0;
+    right: 0; */
     transition: all .5s;
     z-index: 100;
-    position: absolute;
     position: fixed;
 }
 
@@ -24,16 +22,14 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
 
 .header-container h1 {
     font-size: 30px;
     font-weight: bold;
-    font-family: Montserrat;
     color: #fff;
     margin-top: 25px;
-    margin-left: 30px;
+    padding-left: 20px;
 }
 
 /* header-nav */
@@ -47,7 +43,6 @@ body {
     padding-right: 20px;
     font-size: 15px;
     font-weight: bold;
-    font-family: Montserrat;
 }
 
 .header-nav-list a {
@@ -83,7 +78,6 @@ body {
 .fv-content h2 {
     font-size: 72px;
     font-weight: bold;
-    font-family: Montserrat;
     padding-bottom: 15px;
 }
 
@@ -128,7 +122,6 @@ body {
 .head-home-news h2 {
     font-size: 36px;
     font-weight: bold;
-    font-family: Montserrat;
     letter-spacing: 1.3px;
     color: rgb(68, 26, 182);
 }
@@ -263,7 +256,6 @@ body {
 .work-text h2 {
     font-size: 36px;
     font-weight: bold;
-    font-family: Montserrat;
     letter-spacing: 1.3px;
     color: rgb(68, 26, 182);
 }
@@ -339,7 +331,6 @@ body {
 .head-home-canpany h2 {
     font-size: 36px;
     font-weight: bold;
-    font-family: Montserrat;
     letter-spacing: 1.3px;
     color: rgb(68, 26, 182);
     padding-top: 20px;
@@ -409,7 +400,6 @@ body {
 .recruit-text h2 {
     font-size: 36px;
     font-weight: bold;
-    font-family: Montserrat;
     letter-spacing: 1.3px;
     color: rgb(68, 26, 182);
     padding-top: 70px;
@@ -460,7 +450,6 @@ body {
 .contact-text h2 {
     font-size: 36px;
     font-weight: bold;
-    font-family: Montserrat;
     letter-spacing: 1.3px;
     color: rgb(68, 26, 182);
     padding-top: 50px;
@@ -503,7 +492,7 @@ body {
 
 .footer {
     width: 100%;
-    height: 80px;
+    height: auto;
     background-color: #120E19;
 }
 
@@ -540,6 +529,7 @@ body {
     text-align: center;
     text-decoration: none;
     opacity: 0.8;
+    padding-bottom: 10px;
 }
 
 .copyright:hover {
