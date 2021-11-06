@@ -1,7 +1,6 @@
 @media(max-width:768px) {
-    .change-color {
-        background-color: #153738;
-        height: 110px;
+    .header {
+        max-width: 100%;
     }
     .header-container {
         display: block;
