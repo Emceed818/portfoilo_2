@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.html5Doctor.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="hamburger.css">
+
     <link rel="stylesheet" type="text/css" href="slick/slick.css">
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
     <title>Corporate site</title>
@@ -15,33 +17,39 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-container">
-            <h1 class="header-logo">ChokDee design</h1>
-            <nav class="header-nav">
-                <ul class="header-nav-list">
-                    <a href="#">
-                        <li>NEW</li>
-                    </a>
-                    <a href="#">
-                        <li>SERVICE</li>
-                    </a>
-                    <a href="#">
-                        <li>WORKS</li>
-                    </a>
-                    <a href="#">
-                        <li>COMPANY</li>
-                    </a>
-                    <a href="#">
-                        <li>RECRUIT</li>
-                    </a>
-                    <a href="#">
-                        <li>CONTACT</li>
-                    </a>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <header class="site-header">
+		<h1 class="site-logo">
+			ChokDee design
+		</h1>
+		<nav class="site-nav">
+			<input type="checkbox" id="site-nav__toggle" class="site-nav__toggle">
+			<label  for="site-nav__toggle" class="site-nav__toggle-label">
+				<span>
+					<span>メニューを開く</span>
+				</span>
+			</label>
+			<ul class="main-nav">
+				<li class="main-nav__item">
+					<a href="#">NEW</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#message">SERVICE</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#access">WORKS</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#access">COMPANY</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#access">RECRUIT</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#access">CONTACT</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
 
     <main>
         <!-- FV -->
@@ -273,7 +281,7 @@
                 animationClass = "change-color";
             $(window).scroll(function () {
                 var value = $(this).scrollTop();
-                if (value > 110) {
+                if (value > 100) {
                     $header.addClass(animationClass);
                 } else {
                     $header.removeClass(animationClass);
